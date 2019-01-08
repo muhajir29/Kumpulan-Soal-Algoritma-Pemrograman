@@ -1,0 +1,23 @@
+from math import ceil
+ 
+n = int(input())
+Len_Paku = list(map(float, input().split()))
+BA, BB = map(float,input().split())
+Biaya = int(input())
+ 
+total_rugi = 0
+total = 0
+ 
+for i in Len_Paku:
+    if i < BA or i > BB:
+        total_rugi += i
+        total += 1
+ 
+total_rugi = ceil(total_rugi)
+total_rugi = total_rugi * Biaya
+persenan = round((n - total)*100 / n)
+ 
+if persenan == 100:
+    print('100% paku memenuhi standar')
+else:
+    print(persenan, '% paku memenuhi standar, kerugian ', total_rugi, ' rupiah', sep = '')
