@@ -1,0 +1,9 @@
+kata = input()
+rekata =''
+for i in range(len(kata)-1, -1, -1):
+    rekata += kata[i]
+ 
+if rekata == kata:
+    print("SAMA")
+else:
+    print("TIDAK SAMA")
