@@ -21,7 +21,7 @@
 # result = ""
 # for i in target:
 #     if i == 0:
-#         result += "_"
+#         result += "-"
 #     else:
 #         result += "*"
 # print(result)
@@ -29,7 +29,7 @@
 #CODE KE DUA
 
 n = int(input())
-sc = ['_'] * n
+sc = ['-'] * n
 
 while True:
     try:
