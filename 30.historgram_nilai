@@ -1,0 +1,8 @@
+n = int(input())
+x = list(map(str,input().split()))
+for j in range(11):
+    y = x.count(str(j))
+    if j == 10:
+        print(str(j)+"  "+ str(y * "|"))
+    else:
+        print(' ' +str(j)+"  "+ str(y * "|"))
