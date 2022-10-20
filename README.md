@@ -1,2 +1,4 @@
-# LX_ipb
-algoritma pemrograman lx ipb
+# Kumpulan Soal Algoritma dan Pemrograman 
+
+kumpulan soal Algoritma dan Pemrograman dilengkapi dengan soal dan jawaban. 
+
